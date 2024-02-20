@@ -11,7 +11,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Notenplana23
 {
-    public partial class ViewRegestrierung : Form
+    public partial class ViewRegestrierung : Form, IViewRegestrierung
     {
         public ViewRegestrierung()
         {

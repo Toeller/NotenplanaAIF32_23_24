@@ -15,12 +15,12 @@ namespace Notenplana23
     public partial class ViewLoggin : Form, IViewLoggin
     {
         private ModelLoggin modelLoggin;
-        private ViewRegestrierung viewRegestrierung;
-        private ViewHauptprogramm viewHauptprogramm;
+        private IViewRegestrierung viewRegestrierung;
+        private IViewHauptprogramm viewHauptprogramm;
         private IControllerProfile controllerProfil;
 
-        ViewRegestrierung IViewLoggin.ViewRegestrierung { get => viewRegestrierung; set => viewRegestrierung=value; }
-        ViewHauptprogramm IViewLoggin.ViewHauptprogramm { get => viewHauptprogramm; set => viewHauptprogramm=value; }
+        IViewRegestrierung IViewLoggin.ViewRegestrierung { get => viewRegestrierung; set => viewRegestrierung=value; }
+        IViewHauptprogramm IViewLoggin.ViewHauptprogramm { get => viewHauptprogramm; set => viewHauptprogramm=value; }
         IControllerProfile IViewLoggin.ControllerProfile { get => controllerProfil; set => controllerProfil=value; }
 
         public ViewLoggin()

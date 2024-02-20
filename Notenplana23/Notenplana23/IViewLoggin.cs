@@ -2,8 +2,8 @@
 {
     internal interface IViewLoggin
     {
-        ViewRegestrierung ViewRegestrierung { get; set; }
-        ViewHauptprogramm ViewHauptprogramm { get; set; }
+        IViewRegestrierung ViewRegestrierung { get; set; }
+        IViewHauptprogramm ViewHauptprogramm { get; set; }
         IControllerProfile ControllerProfile { get; set; }
     }
 }

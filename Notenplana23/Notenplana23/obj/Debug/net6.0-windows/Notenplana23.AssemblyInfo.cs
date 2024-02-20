@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Notenplana23")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3cfa124c9bb4b12a5e647dd3c8b2d3caaa442d9e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Notenplana23")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Notenplana23")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

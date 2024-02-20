@@ -7,4 +7,8 @@
   </profil>
   <profil name="Kurt" passwort="123" />
   <profil name="Else" passwort="456" />
+  <profil name="Mehmet" passwort="mama" />
+  <profil name="" passwort="" />
+  <profil name="Kurt" passwort="1234" />
+  <profil name="Herr Töller" passwort="12345" />
 </profile>

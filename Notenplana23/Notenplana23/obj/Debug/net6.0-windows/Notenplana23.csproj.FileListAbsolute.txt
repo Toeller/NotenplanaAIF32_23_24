@@ -236,3 +236,4 @@ H:\SOFT\NotenplanaAIF32_23_24\Notenplana23\Notenplana23\obj\Debug\net6.0-windows
 H:\SOFT\NotenplanaAIF32_23_24\Notenplana23\Notenplana23\obj\Debug\net6.0-windows\Notenplana23.pdb
 H:\SOFT\NotenplanaAIF32_23_24\Notenplana23\Notenplana23\obj\Debug\net6.0-windows\Notenplana23.genruntimeconfig.cache
 H:\SOFT\NotenplanaAIF32_23_24\Notenplana23\Notenplana23\obj\Debug\net6.0-windows\ref\Notenplana23.dll
+H:\SOFT\NotenplanaAIF32_23_24\Notenplana23\Notenplana23\obj\Debug\net6.0-windows\Notenplana23.sourcelink.json

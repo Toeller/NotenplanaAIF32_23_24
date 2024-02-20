@@ -15,8 +15,8 @@ namespace Notenplana23
         
         //Bitte alles folgende der Deklaration entsprechend anpassen
         // und alle Schnittstellen erstellen...
-        private static ViewRegestrierung viewRegestrierung;
-        private static ViewHauptprogramm viewHauptprogramm;
+        private static IViewRegestrierung viewRegestrierung;
+        private static IViewHauptprogramm viewHauptprogramm;
         private static ViewProfil viewProfil;
         private static ViewProfiBearbeiten viewProfiBearbeiten;
         private static ViewFachHj1 viewFachHj1;
@@ -85,6 +85,7 @@ namespace Notenplana23
         private static void modelsInstanziieren() 
         {
             modelProfile=new ModelProfileXML();
+            //modelProfile = new modelExperimentell();
             //ggf. übrige Models ergänzen
         }
         private static void viewsInstanziieren()
@@ -114,6 +115,7 @@ namespace Notenplana23
         private static void modelsZuweisen() 
         {
             controllerProfile.ModelProfile = modelProfile;
+
             //ggf. ergänzen
         }
         private static void viewsZuweisen() 

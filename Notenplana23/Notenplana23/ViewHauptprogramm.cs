@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Notenplana23
 {
-    public partial class ViewHauptprogramm : Form
+    public partial class ViewHauptprogramm : Form, IViewHauptprogramm
     {
         public ViewHauptprogramm()
         {
